@@ -1,0 +1,17 @@
+POST http://localhost:5017/auth/login
+Content-Type: application/x-www-form-urlencoded
+
+login=qwerty
+&password=asdf
+
+###
+GET http://localhost:5017
+
+### 
+POST http://localhost:5017/auth/register
+Content-Type: application/json
+
+{
+    "Name": "qq",
+    "Password": "ww"
+}
